@@ -94,7 +94,7 @@ class JiraConfig:
         env = Environment(loader=FileSystemLoader(template_dir))
         template = env.get_template(template_filename)
 
-        password = "123456"
+        secret = "EdnBsJW59yS6bGxhXa5+KkgCr1HKFv5g"
 
         # Render the template
         context = {"server_url": server_url, "token": token}
